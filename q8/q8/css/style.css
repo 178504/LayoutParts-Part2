@@ -1,2 +1,25 @@
 @charset "UTF-8";
 
+/*Q8-1 背景画像の挿入*/
+.background_img{
+  background: url(../../image/coffee-background.jpg);
+}
+
+.content{
+  height: 500px;
+}
+
+/*Q8-2 リピートの解除*/
+.background_img_repeat{
+  background: url(../../image/coffee-background.jpg) no-repeat;
+}
+
+/*Q8-3 中央寄せと引き延ばし*/
+.background_img_cover{
+  background: url(../../image/coffee-background.jpg) no-repeat center/cover;
+}
+
+/*Q8-4 中央寄せとすべて収まる調整*/
+.background_img_contain{
+  background: url(../../image/coffee-background.jpg) no-repeat center/contain;
+}
